@@ -1,0 +1,85 @@
+.pagina{
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-y;
+	background-position:center;
+}
+
+.ui-header.ui-bar-inherit{
+	background-color:#FF8000;
+	border:none;
+}
+
+.ui-link.ui-btn-left.ui-btn.ui-icon-info.ui-btn-icon-notext.ui-shadow.ui-corner-all{
+	background-color:#FF8000;
+	border:1px solid rgba(0,0,0,.3);
+}
+
+@media (min-width:800px){
+	#ulCardapio{
+		max-width: 800px;
+		margin:-17px auto;
+		display: block;
+	}
+}
+
+@media (max-width:800px){
+	#ulCardapio{
+		max-width: 800px;
+		margin-top:-17px;
+		display: block;
+	}
+}
+
+#ulCardapio a{
+	background-color:rgba(255,255,255,0.7);
+	border:1px solid rgba(255,255,255,0.7);
+}
+
+.ltProduto{
+	text-align:center; 
+	margin-bottom:-10px;
+	border-top: 1px solid black;
+	margin-top:-10px;
+	font-size:1.2em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-shadow:2px 2px 10px black;
+	font-style:italic;
+}
+
+.ltDia{
+	margin-top:-10px;
+	float:left; 
+	clear:none;
+	text-transform: capitalize;
+	text-decoration-color:gray;
+}
+
+.ltData{
+	margin-top:-10px;
+	float:right; 
+	clear:none;
+}
+
+#divDialog{
+	text-align:center;
+}
+ #tabela{
+	margin-top:-10px;
+	display:inline-block;
+ }
+ 
+ th {
+	text-align:left;
+ }
+ 
+ tr{
+	text-align:right;
+ }
+ 
+ button img {
+	height:30px;
+	margin:-10px 0;
+	margin-right:10px;
+ }
+ 
