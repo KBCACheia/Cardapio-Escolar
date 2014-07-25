@@ -17,12 +17,12 @@ $(function(){
 		var cardapioCompleto="";
 		var produto;
 		for (i=0; i < cardapio.length; i++){
-			if(data.getDate() <= cardapio[i].DATA.substr(0,2)){
+			//if(data.getDate() <= cardapio[i].DATA.substr(0,2)){
 				cardapioCompleto = cardapioCompleto + "<li class='ui-first-child'><a href='#dialog' class='ui-btn ui-btn-icon-right ui-icon-carat-r'><span class='ltDia'>"+
 														cardapio[i].DIA_SEMANA+"  </span><span class='ltData'>"+cardapio[i].DATA+"  </span><br><h1 class='ltProduto'>"+
 															cardapio[i].PRODUTO+"</h1></a></li>";
 				
-			}
+			//}
 			
 		}
 		$("#ltCardapio").html(cardapioCompleto);
